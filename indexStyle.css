@@ -1,0 +1,243 @@
+header{
+  display: flex;
+  text-align: center;
+  height: 100px;
+  background-color: #000000;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  background-color: #476C9B;
+}
+
+
+header h3{
+  padding-top: 20px;
+  text-transform: uppercase;
+  flex: 3;
+  color: #ffffff;
+  font-size: 50px;
+  font-style:bold;
+  font-family: fantasy;
+  background-color: #000000;
+}
+
+
+.indlæg{
+  position: relative;
+  align-items: center;
+}
+
+.indlæg-content input[type="textarea"]{
+position: relative;
+background-color: black;
+align-items: center;
+border-radius: 10px;
+margin-bottom: 15px;
+padding: 15px;
+width: 20%;
+}
+
+.indlæg-content input[type ="text"]{
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 20%;
+}
+
+input::placeholder{
+
+}
+
+#title{
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 50%;
+}
+
+#title2{
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 70%;
+}
+
+#rediger{
+  background: #062F4F;
+  color: #fff;
+  position: relative;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 3px 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#rediger:hover{
+  background:black;
+  color: #fff;
+  position: relative;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 3px 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+
+#logud{
+  background: #062F4F;
+  color: #fff;
+  bottom: 0px;
+  position: fixed;
+  font-size: 25px;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#logud:hover{
+  background: black;
+  color: #fff;
+  bottom: 0px;
+  position: fixed;
+  font-size: 25px;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#slet{
+  background: #062F4F;
+  color: #fff;
+  position: relative;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 3px 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#slet:hover{
+  background: black;
+  color: #fff;
+  position: relative;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 3px 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.indlæg-content input[type ="submit"]{
+  background: #062F4F;
+  color: #fff;
+  position: relative;
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.indlæg-content input[type ="submit"]:hover{
+  background: black;
+  color: #fff;
+  position: relative;
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#titel{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 50%;
+}
+
+#opret{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+
+.indlæg-tekst h2{
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: fantasy;
+}
+
+.liste ul{
+ display: flex;
+ flex-direction: column;
+ list-style: inside;
+ padding: 10px;
+ margin-bottom: 20px;
+}
+
+.liste ul li{
+  display: flex;
+  flex: 1;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 16px;
+}
+
+@media all and (max-width:900px){
+  header{
+    height: 150px;
+  }
+}
+
+@media all and (max-width:470px){
+  header{
+    height: 230px;
+  }
+}
+
+@media all and (max-width:342px){
+  header{
+    height: 310px;
+  }
+}
